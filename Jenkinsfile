@@ -22,7 +22,7 @@ pipeline {
         }
 	stage('Message') {
             steps {
-                echo 'Build is successfull....'
+                echo 'Build is successful....'
 		
             }
         }
