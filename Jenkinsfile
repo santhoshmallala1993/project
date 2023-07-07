@@ -8,7 +8,7 @@ pipeline {
 		sh '/usr/share/maven/bin/mvn validate'
             }
         }
-        stage('Build') {
+        stage('Building') {
             steps {
                 echo 'Building..'
 		sh '/usr/share/maven/bin/mvn package'
